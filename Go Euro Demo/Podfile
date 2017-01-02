@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+target 'Go Euro Demo' do
+  use_frameworks!
+  pod 'SDWebImage', '~>3.8'
+  pod 'XLPagerTabStrip', :git => 'https://github.com/xmartlabs/XLPagerTabStrip', :branch => 'obj-c'
+
+  target 'Go Euro DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

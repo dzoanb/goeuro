@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D165664DA9CD893595AC87 /* Pods_Go_Euro_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA38982BD7E1F5CF5A386B4 /* Pods_Go_Euro_DemoTests.framework */; };
+		E406A0711E1B7FA30067A3FF /* CoreDataStackController.m in Sources */ = {isa = PBXBuildFile; fileRef = E406A0701E1B7FA30067A3FF /* CoreDataStackController.m */; };
+		E406A0741E1B92CB0067A3FF /* TransportationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E406A0731E1B92CB0067A3FF /* TransportationProvider.m */; };
+		E406A07D1E1B9D540067A3FF /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E406A07C1E1B9D540067A3FF /* NSDictionary+SafeAccess.m */; };
+		E427FA121E1BADE500A240B9 /* Go_Euro_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E427FA091E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodeld */; };
+		E48523101E1BE6D9007A0BBE /* ConveyanceCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E485230F1E1BE6D9007A0BBE /* ConveyanceCellViewModel.m */; };
+		E4D0F8271E24D9C400543148 /* TransportationProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D0F8261E24D9C400543148 /* TransportationProviderTests.m */; };
+		E4D0F82E1E24DD9600543148 /* MockAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D0F82D1E24DD9600543148 /* MockAPIClient.m */; };
+		E4D0F83A1E24E60200543148 /* Conveyance+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D0F8371E24E60200543148 /* Conveyance+CoreDataClass.m */; };
+		E4D0F83B1E24E60200543148 /* Conveyance+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D0F8391E24E60200543148 /* Conveyance+CoreDataProperties.m */; };
+		E4E145061E1A5BBB0090559E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E145051E1A5BBB0090559E /* AppDelegate.m */; };
+		E4E145091E1A5BBB0090559E /* TransportationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E145081E1A5BBB0090559E /* TransportationViewController.m */; };
+		E4E1450C1E1A5BBB0090559E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E1450A1E1A5BBB0090559E /* Main.storyboard */; };
+		E4E145111E1A5BBB0090559E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E145101E1A5BBB0090559E /* Assets.xcassets */; };
+		E4E145141E1A5BBB0090559E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E145121E1A5BBB0090559E /* LaunchScreen.storyboard */; };
+		E4E1453B1E1A675D0090559E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1453A1E1A675D0090559E /* main.m */; };
+		E4E1453E1E1A6B380090559E /* ConveyancesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1453D1E1A6B380090559E /* ConveyancesListViewController.m */; };
+		E4E145411E1A6BE80090559E /* ConveyancesListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E145401E1A6BE80090559E /* ConveyancesListDataSource.m */; };
+		E4E145471E1A6FE00090559E /* ConveyanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E145461E1A6FE00090559E /* ConveyanceTableViewCell.m */; };
+		E4E1454A1E1A921D0090559E /* ConveyancesAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E145491E1A921D0090559E /* ConveyancesAPIClient.m */; };
+		F736092A34B1F79C21EC8183 /* Pods_Go_Euro_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F4BC8051F28A80AB557002 /* Pods_Go_Euro_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C854CC351E22D3D600D2E238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E144F61E1A5BBA0090559E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E144FD1E1A5BBA0090559E;
+			remoteInfo = "Go Euro Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F5D9F01FD4222D862B9575A /* Pods-Go Euro DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro DemoUITests/Pods-Go Euro DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33980A9E13BB25C1A46FCDA5 /* Pods-Go Euro DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro DemoTests/Pods-Go Euro DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5907B439A1E0762C16781440 /* Pods-Go Euro DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro DemoUITests/Pods-Go Euro DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839937A57C86C58DA5164DD8 /* Pods_Go_Euro_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Euro_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4EDDAD4DC7DE1A79D00D0 /* Pods-Go Euro Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro Demo/Pods-Go Euro Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C854CC301E22D3D600D2E238 /* Go Euro DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Euro DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C854CC341E22D3D600D2E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A13022F3529BDF5FC9A19F /* Pods-Go Euro DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro DemoTests/Pods-Go Euro DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7F4BC8051F28A80AB557002 /* Pods_Go_Euro_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Euro_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC5BC3C73D985A4DF2E692E /* Pods-Go Euro Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Euro Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go Euro Demo/Pods-Go Euro Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E406A06F1E1B7FA30067A3FF /* CoreDataStackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStackController.h; path = Classes/Others/CoreDataStackController.h; sourceTree = "<group>"; };
+		E406A0701E1B7FA30067A3FF /* CoreDataStackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStackController.m; path = Classes/Others/CoreDataStackController.m; sourceTree = "<group>"; };
+		E406A0721E1B92CB0067A3FF /* TransportationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransportationProvider.h; path = Classes/Others/TransportationProvider.h; sourceTree = "<group>"; };
+		E406A0731E1B92CB0067A3FF /* TransportationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransportationProvider.m; path = Classes/Others/TransportationProvider.m; sourceTree = "<group>"; };
+		E406A07B1E1B9D540067A3FF /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeAccess.h"; path = "Classes/Others/NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
+		E406A07C1E1B9D540067A3FF /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeAccess.m"; path = "Classes/Others/NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
+		E427FA0A1E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Go_Euro_Demo.xcdatamodel; sourceTree = "<group>"; };
+		E47010FB1E24E94600DC2AAA /* CoreDataStackController+CleanUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreDataStackController+CleanUp.h"; path = "Classes/Others/CoreDataStackController+CleanUp.h"; sourceTree = "<group>"; };
+		E485230E1E1BE6D9007A0BBE /* ConveyanceCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConveyanceCellViewModel.h; path = Classes/Models/ConveyanceCellViewModel.h; sourceTree = "<group>"; };
+		E485230F1E1BE6D9007A0BBE /* ConveyanceCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConveyanceCellViewModel.m; path = Classes/Models/ConveyanceCellViewModel.m; sourceTree = "<group>"; };
+		E4D0F8261E24D9C400543148 /* TransportationProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportationProviderTests.m; sourceTree = "<group>"; };
+		E4D0F8281E24DA8C00543148 /* APIClientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APIClientProtocol.h; path = Classes/Others/APIClientProtocol.h; sourceTree = "<group>"; };
+		E4D0F82C1E24DD9600543148 /* MockAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockAPIClient.h; sourceTree = "<group>"; };
+		E4D0F82D1E24DD9600543148 /* MockAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockAPIClient.m; sourceTree = "<group>"; };
+		E4D0F8361E24E60200543148 /* Conveyance+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Conveyance+CoreDataClass.h"; path = "Classes/Models/Conveyance+CoreDataClass.h"; sourceTree = "<group>"; };
+		E4D0F8371E24E60200543148 /* Conveyance+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Conveyance+CoreDataClass.m"; path = "Classes/Models/Conveyance+CoreDataClass.m"; sourceTree = "<group>"; };
+		E4D0F8381E24E60200543148 /* Conveyance+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Conveyance+CoreDataProperties.h"; path = "Classes/Models/Conveyance+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E4D0F8391E24E60200543148 /* Conveyance+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Conveyance+CoreDataProperties.m"; path = "Classes/Models/Conveyance+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E4E144FE1E1A5BBB0090559E /* Go Euro Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Euro Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E145041E1A5BBB0090559E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/Others/AppDelegate.h; sourceTree = "<group>"; };
+		E4E145051E1A5BBB0090559E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/Others/AppDelegate.m; sourceTree = "<group>"; };
+		E4E145071E1A5BBB0090559E /* TransportationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TransportationViewController.h; path = Classes/Controllers/TransportationViewController.h; sourceTree = "<group>"; };
+		E4E145081E1A5BBB0090559E /* TransportationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TransportationViewController.m; path = Classes/Controllers/TransportationViewController.m; sourceTree = "<group>"; };
+		E4E1450B1E1A5BBB0090559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E145101E1A5BBB0090559E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		E4E145131E1A5BBB0090559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4E145151E1A5BBB0090559E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		E4E1453A1E1A675D0090559E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/Others/main.m; sourceTree = "<group>"; };
+		E4E1453C1E1A6B380090559E /* ConveyancesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConveyancesListViewController.h; path = Classes/Controllers/ConveyancesListViewController.h; sourceTree = "<group>"; };
+		E4E1453D1E1A6B380090559E /* ConveyancesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConveyancesListViewController.m; path = Classes/Controllers/ConveyancesListViewController.m; sourceTree = "<group>"; };
+		E4E1453F1E1A6BE80090559E /* ConveyancesListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConveyancesListDataSource.h; path = Classes/Others/ConveyancesListDataSource.h; sourceTree = "<group>"; };
+		E4E145401E1A6BE80090559E /* ConveyancesListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConveyancesListDataSource.m; path = Classes/Others/ConveyancesListDataSource.m; sourceTree = "<group>"; };
+		E4E145451E1A6FE00090559E /* ConveyanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConveyanceTableViewCell.h; path = Classes/Views/ConveyanceTableViewCell.h; sourceTree = "<group>"; };
+		E4E145461E1A6FE00090559E /* ConveyanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConveyanceTableViewCell.m; path = Classes/Views/ConveyanceTableViewCell.m; sourceTree = "<group>"; };
+		E4E145481E1A921D0090559E /* ConveyancesAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConveyancesAPIClient.h; path = Classes/Others/ConveyancesAPIClient.h; sourceTree = "<group>"; };
+		E4E145491E1A921D0090559E /* ConveyancesAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConveyancesAPIClient.m; path = Classes/Others/ConveyancesAPIClient.m; sourceTree = "<group>"; };
+		ECA38982BD7E1F5CF5A386B4 /* Pods_Go_Euro_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Euro_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C854CC2D1E22D3D600D2E238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D165664DA9CD893595AC87 /* Pods_Go_Euro_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E144FB1E1A5BBA0090559E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F736092A34B1F79C21EC8183 /* Pods_Go_Euro_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B1ED2BE8A466BCC5E4C9D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4BC8051F28A80AB557002 /* Pods_Go_Euro_Demo.framework */,
+				ECA38982BD7E1F5CF5A386B4 /* Pods_Go_Euro_DemoTests.framework */,
+				839937A57C86C58DA5164DD8 /* Pods_Go_Euro_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C854CC311E22D3D600D2E238 /* Go Euro DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C854CC341E22D3D600D2E238 /* Info.plist */,
+				E4D0F8261E24D9C400543148 /* TransportationProviderTests.m */,
+				E4D0F82C1E24DD9600543148 /* MockAPIClient.h */,
+				E4D0F82D1E24DD9600543148 /* MockAPIClient.m */,
+			);
+			path = "Go Euro DemoTests";
+			sourceTree = "<group>";
+		};
+		E406A05A1E1A9E180067A3FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E406A05F1E1A9EA60067A3FF /* Views */,
+				E406A05E1E1A9E600067A3FF /* Controllers */,
+				E406A05D1E1A9E5A0067A3FF /* Models */,
+				E406A05C1E1A9E4C0067A3FF /* Others */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E406A05B1E1A9E230067A3FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E427FA091E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodeld */,
+				E4E1450A1E1A5BBB0090559E /* Main.storyboard */,
+				E4E145101E1A5BBB0090559E /* Assets.xcassets */,
+				E4E145121E1A5BBB0090559E /* LaunchScreen.storyboard */,
+				E4E145151E1A5BBB0090559E /* Info.plist */,
+				E4E145011E1A5BBB0090559E /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E406A05C1E1A9E4C0067A3FF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E47010FE1E24EB3C00DC2AAA /* CoreDataStack */,
+				E427FA131E1BD01500A240B9 /* Networking */,
+				E4E1453F1E1A6BE80090559E /* ConveyancesListDataSource.h */,
+				E4E145401E1A6BE80090559E /* ConveyancesListDataSource.m */,
+				E4E145041E1A5BBB0090559E /* AppDelegate.h */,
+				E4E145051E1A5BBB0090559E /* AppDelegate.m */,
+				E406A07B1E1B9D540067A3FF /* NSDictionary+SafeAccess.h */,
+				E406A07C1E1B9D540067A3FF /* NSDictionary+SafeAccess.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		E406A05D1E1A9E5A0067A3FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0F8361E24E60200543148 /* Conveyance+CoreDataClass.h */,
+				E4D0F8371E24E60200543148 /* Conveyance+CoreDataClass.m */,
+				E4D0F8381E24E60200543148 /* Conveyance+CoreDataProperties.h */,
+				E4D0F8391E24E60200543148 /* Conveyance+CoreDataProperties.m */,
+				E485230E1E1BE6D9007A0BBE /* ConveyanceCellViewModel.h */,
+				E485230F1E1BE6D9007A0BBE /* ConveyanceCellViewModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E406A05E1E1A9E600067A3FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E145071E1A5BBB0090559E /* TransportationViewController.h */,
+				E4E145081E1A5BBB0090559E /* TransportationViewController.m */,
+				E4E1453C1E1A6B380090559E /* ConveyancesListViewController.h */,
+				E4E1453D1E1A6B380090559E /* ConveyancesListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E406A05F1E1A9EA60067A3FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4E145451E1A6FE00090559E /* ConveyanceTableViewCell.h */,
+				E4E145461E1A6FE00090559E /* ConveyanceTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E427FA131E1BD01500A240B9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E4E145481E1A921D0090559E /* ConveyancesAPIClient.h */,
+				E4E145491E1A921D0090559E /* ConveyancesAPIClient.m */,
+				E406A0721E1B92CB0067A3FF /* TransportationProvider.h */,
+				E406A0731E1B92CB0067A3FF /* TransportationProvider.m */,
+				E4D0F8281E24DA8C00543148 /* APIClientProtocol.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		E47010FE1E24EB3C00DC2AAA /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				E406A06F1E1B7FA30067A3FF /* CoreDataStackController.h */,
+				E406A0701E1B7FA30067A3FF /* CoreDataStackController.m */,
+				E47010FB1E24E94600DC2AAA /* CoreDataStackController+CleanUp.h */,
+			);
+			name = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		E4E144F51E1A5BBA0090559E = {
+			isa = PBXGroup;
+			children = (
+				E4E145001E1A5BBB0090559E /* Go Euro Demo */,
+				C854CC311E22D3D600D2E238 /* Go Euro DemoTests */,
+				E4E144FF1E1A5BBB0090559E /* Products */,
+				E569EF9227DAAE8BA571A747 /* Pods */,
+				9B1ED2BE8A466BCC5E4C9D1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E144FF1E1A5BBB0090559E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E144FE1E1A5BBB0090559E /* Go Euro Demo.app */,
+				C854CC301E22D3D600D2E238 /* Go Euro DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E145001E1A5BBB0090559E /* Go Euro Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E406A05A1E1A9E180067A3FF /* Classes */,
+				E406A05B1E1A9E230067A3FF /* Resources */,
+			);
+			path = "Go Euro Demo";
+			sourceTree = "<group>";
+		};
+		E4E145011E1A5BBB0090559E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4E1453A1E1A675D0090559E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E569EF9227DAAE8BA571A747 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC5BC3C73D985A4DF2E692E /* Pods-Go Euro Demo.debug.xcconfig */,
+				A1F4EDDAD4DC7DE1A79D00D0 /* Pods-Go Euro Demo.release.xcconfig */,
+				33980A9E13BB25C1A46FCDA5 /* Pods-Go Euro DemoTests.debug.xcconfig */,
+				D2A13022F3529BDF5FC9A19F /* Pods-Go Euro DemoTests.release.xcconfig */,
+				2F5D9F01FD4222D862B9575A /* Pods-Go Euro DemoUITests.debug.xcconfig */,
+				5907B439A1E0762C16781440 /* Pods-Go Euro DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C854CC2F1E22D3D600D2E238 /* Go Euro DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854CC371E22D3D600D2E238 /* Build configuration list for PBXNativeTarget "Go Euro DemoTests" */;
+			buildPhases = (
+				F39A6F9B1E2FD8B452E64310 /* [CP] Check Pods Manifest.lock */,
+				C854CC2C1E22D3D600D2E238 /* Sources */,
+				C854CC2D1E22D3D600D2E238 /* Frameworks */,
+				C854CC2E1E22D3D600D2E238 /* Resources */,
+				7C64F3127290EBF3EDBFA76A /* [CP] Embed Pods Frameworks */,
+				34BFE38ACAC9617F716ADE8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C854CC361E22D3D600D2E238 /* PBXTargetDependency */,
+			);
+			name = "Go Euro DemoTests";
+			productName = "Go Euro DemoTests";
+			productReference = C854CC301E22D3D600D2E238 /* Go Euro DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4E144FD1E1A5BBA0090559E /* Go Euro Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E1452E1E1A5BBB0090559E /* Build configuration list for PBXNativeTarget "Go Euro Demo" */;
+			buildPhases = (
+				41EF5BD77387BDD44F15BB7D /* [CP] Check Pods Manifest.lock */,
+				E4E144FA1E1A5BBA0090559E /* Sources */,
+				E4E144FB1E1A5BBA0090559E /* Frameworks */,
+				E4E144FC1E1A5BBA0090559E /* Resources */,
+				84C134AB5A70BC4DC09522E2 /* [CP] Embed Pods Frameworks */,
+				CDC9A65CCA7C21B10119CC57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Euro Demo";
+			productName = "Go Euro Demo";
+			productReference = E4E144FE1E1A5BBB0090559E /* Go Euro Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E144F61E1A5BBA0090559E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joanna Bednarz (PGS Software)";
+				TargetAttributes = {
+					C854CC2F1E22D3D600D2E238 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4E144FD1E1A5BBA0090559E;
+					};
+					E4E144FD1E1A5BBA0090559E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36CHZQXF4C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4E144F91E1A5BBA0090559E /* Build configuration list for PBXProject "Go Euro Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E144F51E1A5BBA0090559E;
+			productRefGroup = E4E144FF1E1A5BBB0090559E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E144FD1E1A5BBA0090559E /* Go Euro Demo */,
+				C854CC2F1E22D3D600D2E238 /* Go Euro DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C854CC2E1E22D3D600D2E238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E144FC1E1A5BBA0090559E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E145141E1A5BBB0090559E /* LaunchScreen.storyboard in Resources */,
+				E4E145111E1A5BBB0090559E /* Assets.xcassets in Resources */,
+				E4E1450C1E1A5BBB0090559E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34BFE38ACAC9617F716ADE8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Euro DemoTests/Pods-Go Euro DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41EF5BD77387BDD44F15BB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C64F3127290EBF3EDBFA76A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Euro DemoTests/Pods-Go Euro DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C134AB5A70BC4DC09522E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Euro Demo/Pods-Go Euro Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC9A65CCA7C21B10119CC57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Euro Demo/Pods-Go Euro Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F39A6F9B1E2FD8B452E64310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C854CC2C1E22D3D600D2E238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D0F82E1E24DD9600543148 /* MockAPIClient.m in Sources */,
+				E4D0F8271E24D9C400543148 /* TransportationProviderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E144FA1E1A5BBA0090559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D0F83B1E24E60200543148 /* Conveyance+CoreDataProperties.m in Sources */,
+				E427FA121E1BADE500A240B9 /* Go_Euro_Demo.xcdatamodeld in Sources */,
+				E4E1453B1E1A675D0090559E /* main.m in Sources */,
+				E4E1453E1E1A6B380090559E /* ConveyancesListViewController.m in Sources */,
+				E4E145471E1A6FE00090559E /* ConveyanceTableViewCell.m in Sources */,
+				E406A0711E1B7FA30067A3FF /* CoreDataStackController.m in Sources */,
+				E4E145091E1A5BBB0090559E /* TransportationViewController.m in Sources */,
+				E4E145061E1A5BBB0090559E /* AppDelegate.m in Sources */,
+				E48523101E1BE6D9007A0BBE /* ConveyanceCellViewModel.m in Sources */,
+				E4E1454A1E1A921D0090559E /* ConveyancesAPIClient.m in Sources */,
+				E4D0F83A1E24E60200543148 /* Conveyance+CoreDataClass.m in Sources */,
+				E406A0741E1B92CB0067A3FF /* TransportationProvider.m in Sources */,
+				E406A07D1E1B9D540067A3FF /* NSDictionary+SafeAccess.m in Sources */,
+				E4E145411E1A6BE80090559E /* ConveyancesListDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C854CC361E22D3D600D2E238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E144FD1E1A5BBA0090559E /* Go Euro Demo */;
+			targetProxy = C854CC351E22D3D600D2E238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4E1450A1E1A5BBB0090559E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E1450B1E1A5BBB0090559E /* Base */,
+			);
+			name = Main.storyboard;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4E145121E1A5BBB0090559E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E145131E1A5BBB0090559E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C854CC381E22D3D600D2E238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33980A9E13BB25C1A46FCDA5 /* Pods-Go Euro DemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Go Euro DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.Go-Euro-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go Euro DemoTests/Go Euro DemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Euro Demo.app/Go Euro Demo";
+			};
+			name = Debug;
+		};
+		C854CC391E22D3D600D2E238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A13022F3529BDF5FC9A19F /* Pods-Go Euro DemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Go Euro DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.Go-Euro-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go Euro DemoTests/Go Euro DemoTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Euro Demo.app/Go Euro Demo";
+			};
+			name = Release;
+		};
+		E4E1452C1E1A5BBB0090559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4E1452D1E1A5BBB0090559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E1452F1E1A5BBB0090559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC5BC3C73D985A4DF2E692E /* Pods-Go Euro Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = "$(SRCROOT)/Go Euro Demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.Go-Euro-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4E145301E1A5BBB0090559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F4EDDAD4DC7DE1A79D00D0 /* Pods-Go Euro Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = "$(SRCROOT)/Go Euro Demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.Go-Euro-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C854CC371E22D3D600D2E238 /* Build configuration list for PBXNativeTarget "Go Euro DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854CC381E22D3D600D2E238 /* Debug */,
+				C854CC391E22D3D600D2E238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E144F91E1A5BBA0090559E /* Build configuration list for PBXProject "Go Euro Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E1452C1E1A5BBB0090559E /* Debug */,
+				E4E1452D1E1A5BBB0090559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E1452E1E1A5BBB0090559E /* Build configuration list for PBXNativeTarget "Go Euro Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E1452F1E1A5BBB0090559E /* Debug */,
+				E4E145301E1A5BBB0090559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E427FA091E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E427FA0A1E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodel */,
+			);
+			currentVersion = E427FA0A1E1BAD2000A240B9 /* Go_Euro_Demo.xcdatamodel */;
+			name = Go_Euro_Demo.xcdatamodeld;
+			path = Resources/Go_Euro_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4E144F61E1A5BBA0090559E /* Project object */;
+}

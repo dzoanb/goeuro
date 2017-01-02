@@ -1,0 +1,27 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - XLPagerTabStrip (3.0.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8)
+  - XLPagerTabStrip (from `https://github.com/xmartlabs/XLPagerTabStrip`, branch `obj-c`)
+
+EXTERNAL SOURCES:
+  XLPagerTabStrip:
+    :branch: obj-c
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+CHECKOUT OPTIONS:
+  XLPagerTabStrip:
+    :commit: d053e5067fb439fe41d11991f11a757d7248103c
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
+
+PODFILE CHECKSUM: b029ff56860eede6d873db64d591dba5ede70318
+
+COCOAPODS: 1.1.1
